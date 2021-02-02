@@ -1,0 +1,32 @@
+.contact {
+  height: 100%;
+  padding: 30vh 10vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url("../images/bcg.jpg") center center/cover no-repeat;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .fa {
+    margin-right: 0.5rem;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+  }
+  .social-icons {
+    position: initial;
+    margin-top: 2rem;
+  }
+}

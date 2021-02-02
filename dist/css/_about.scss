@@ -1,0 +1,26 @@
+.about {
+  padding-bottom: 2rem;
+
+  &__bio-image {
+    height: 30vh;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+      ),
+      url("../images/bcg.jpg") center center/cover no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .text-secondary {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    padding: 10vh;
+  }
+}
